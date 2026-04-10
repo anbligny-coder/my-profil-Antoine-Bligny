@@ -1,0 +1,85 @@
+/*
+  Auteur : Votre Nom
+  Date : 2026-03-04
+  Description : Feuille de style pour le portfolio professionnel simple.
+*/
+
+/* --- Styles généraux --- */
+body {
+    font-family: Arial, sans-serif; /* Police système par défaut */
+    line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+    margin: 0;
+    padding: 0;
+    background-color: #0000FF; /* Fond bleu marine */
+    color: #333; /* Couleur de texte principale */
+}
+
+/* --- Conteneur principal --- */
+/* Centre le contenu et limite sa largeur */
+body > * {
+    max-width: 1000px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrage horizontal */
+    padding: 20px;
+}
+
+/* --- En-tête --- */
+header {
+    background-color: #ffffff; /* Fond blanc pour l'en-tête */
+    padding: 30px;
+    text-align: center; /* Centrage du texte */
+    border-bottom: 1px solid #ddd; /* Bordure inférieure légère */
+}
+
+header h1 {
+    margin: 0;
+    color: #005a9c; /* Bleu léger pour le nom */
+}
+
+header h2 {
+    margin: 0;
+    font-weight: normal; /* Titre en police normale */
+    color: #555;
+}
+
+/* --- Sections --- */
+section {
+    background-color: #ffffff; /* Fond blanc pour les sections */
+    margin-top: 20px; /* Marge supérieure pour séparer les sections */
+    padding: 20px;
+    border-radius: 5px; /* Coins légèrement arrondis */
+}
+
+section h3 {
+    border-bottom: 2px solid #005a9c; /* Ligne de séparation pour les titres de section */
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* --- Listes (pour les liens et compétences) --- */
+ul {
+    list-style: none; /* Suppression des puces par défaut */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+}
+
+/* --- Liens --- */
+a {
+    color: #005a9c; /* Couleur des liens */
+    text-decoration: none; /* Suppression du soulignement par défaut */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement au survol pour indiquer l'interactivité */
+}
+
+/* --- Pied de page --- */
+footer {
+    text-align: center; /* Centrage du texte */
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 0.9em; /* Taille de police légèrement réduite */
+    color: #777;
+}
